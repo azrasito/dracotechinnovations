@@ -1,0 +1,91 @@
+body {
+	display: flex;
+	flex-direction: column;
+	
+	/*align-content: center;*/
+	align-items: center;
+	text-align: center;
+	
+	background-color: rgb(30,25,35);
+	
+	margin: 0;
+	padding: 0;
+	
+	font-family: 'Segoe UI', 'Verdana';
+	
+	margin-top: 60px;
+}
+
+header img {
+	border-radius: 10px;
+	/*width: 50px;
+	height: 50px;*/
+	
+	padding: 5px;
+	margin: 5px;
+}
+
+header h2 {
+	color: white;
+	
+	background-color: rgb(12,12,23);
+	background-size: cover;
+	
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+header hr {
+	color: rgb(40,40,40);
+}
+
+footer section {
+	background-color: rgb(208,201,192);
+	border-radius: 1px;
+	
+	padding-right: 7rem;
+	padding-left: 7rem;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	
+	margin: 60px;
+}
+
+article p {
+	color: white;
+}
+
+.oses a {
+	color: rgb(127,127,127);
+}
+
+.ais a {
+	color: rgb(127,127,127);
+}
+
+.navbar {
+	overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    left: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(127,127,176);
+    color: black;
+}
